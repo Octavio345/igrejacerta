@@ -1,0 +1,118 @@
+
+header{
+    background-color: black;
+    padding: 2% 0% 0% 0%;
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#img{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after{
+    width: 80%;
+}
+#JESUS{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Departamentos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#h3{
+    text-align: center;
+}
+#Pastores{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#presidente{
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Mapa{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* Estilos para dispositivos móveis com largura de tela até 600px */
+@media only screen and (max-width: 600px) {
+    /* Adicione seus estilos para dispositivos móveis aqui */
+  }
+  #voltar{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+ #voltar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+ #voltar a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+#voltar a:hover::after{
+    width: 80%;
+}
+#logo{
+    padding: 2% 0% 0% 0%;
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+}
+#dias{
+    font-family: Arial, Helvetica, sans-serif;
+}

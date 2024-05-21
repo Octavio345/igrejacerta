@@ -1,0 +1,87 @@
+nav{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after{
+    width: 80%;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: black;
+    padding: 2% 0% 0% 15%;
+    gap: 60px;
+    padding: 10px;
+    display: flex;
+   
+
+ 
+}
+#sede{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/* Estilos para dispositivos móveis com largura de tela até 600px */
+@media only screen and (max-width: 600px) {
+    /* Adicione seus estilos para dispositivos móveis aqui */
+  }
+  #voltar{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+ #voltar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+ #voltar a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+#voltar a:hover::after{
+    width: 80%;
+}

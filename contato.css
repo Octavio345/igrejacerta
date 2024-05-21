@@ -1,0 +1,135 @@
+nav{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after{
+    width: 80%;
+}
+body{
+    background-color: black;
+}
+.table{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#redes{
+     color: white;
+     text-align: center;
+}
+#instagram{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#face2{
+    color: rgb(55, 55, 180);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 2% 0% 0% 0%;
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+body{
+    color: white;
+    text-align: center;
+    
+}
+#contato{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+/* Estilos para dispositivos móveis com largura de tela até 600px */
+@media only screen and (max-width: 600px) {
+    /* Adicione seus estilos para dispositivos móveis aqui */
+  }
+  #link1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 20px;
+  }
+  #link2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 20px;
+  }
+  #voltar{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+ #voltar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+ #voltar a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+#voltar a:hover::after{
+    width: 80%;
+}
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp{
+    margin-top: 16px;
+}

@@ -1,0 +1,55 @@
+nav{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after{
+    width: 80%;
+}
+body{
+    background-color: black;
+}
+#semadi{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#link{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    padding: 2% 0% 0% 0%;
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+}
+#trabalhos{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
